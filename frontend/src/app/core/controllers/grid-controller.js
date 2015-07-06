@@ -88,7 +88,11 @@
             enableServerSideFilter: true,
             suppressUnSort: true,
             datasource: dataSource,
-            columnDefs: $scope.columnDefs
+            columnDefs: $scope.columnDefs,
+            cellValueChanged:function (params) {
+                var id = params.data.id;
+                $scope.Model.update(id, params.data);
+            }
         };
 
         function _fetchData() {

@@ -193,6 +193,7 @@
                 $scope.columnDefs = [{
                     headerName: 'Title',
                     field: 'title',
+                    editable: true,
                     filter: 'text',
                     filterParams: {newRowsAction: 'keep'}
                 }, {

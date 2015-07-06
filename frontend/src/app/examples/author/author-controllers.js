@@ -145,6 +145,7 @@
                     headerName: 'Name',
                     field: 'name',
                     filter: 'text',
+                    editable: true,
                     filterParams: {newRowsAction: 'keep'},
                     cellRenderer: function(params) {
                         var href = $scope.$state.href('examples.author', {

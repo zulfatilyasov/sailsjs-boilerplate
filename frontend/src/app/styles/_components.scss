@@ -52,8 +52,12 @@
     display: inline-block;
   }
 }
+
 .ag-fresh{
   .ag-header-cell-menu-button{
     margin-top: 0;
+  }
+  .ag-cell-focus, .ag-cell-no-focus, .ag-cell-edit-input{
+    outline:none;
   }
 }
